@@ -1,0 +1,83 @@
+{   
+  "store.home": {      // minha pagina de produtos resultado da minha customQuery
+    "blocks": [
+     "slider-layout#homeclubs",
+     "slider-layout#homeimages",
+      "search-result-layout.customQuery#home"
+//      "list-context.image-list#lp"
+    
+    ]
+  },
+  "search-result-layout.customQuery#home":{
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 10
+      }
+    },
+    "blocks": ["search-result-layout.desktop#lp", "search-result-layout.mobile"]
+  },
+  "search-result-layout.desktop#lp":{
+    "children":[
+
+     "search-content#lp"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "search-content#lp":{
+    "blocks":[
+//      "gallery#lp", "not-found"
+      "gallery", "not-found"
+    ]
+  }
+//
+//  "gallery#lp": {
+//      "props": {
+//        "layouts": [
+//          {
+//            "name": "grid",
+//            "component": "GridSummary",
+//            "ItemsPerRow": {
+//              "(min-width:1300px)": 4,
+//              "desktop": 3,
+//              "tablet": 3,
+//              "phone": 2
+//            }
+//          },
+//          {
+//            "name": "list",
+//            "component": "ListSummary",
+//            "ItemsPerRow": 1
+//          }
+//        ],
+//        "ListSummary": "product-summary.shelf#lp",
+//        "GridSummary": "product-summary.shelf#lp"
+//      }
+//    },
+//  
+//    "product-summary.shelf#lp": {
+//    "children": [
+//      "product-summary-name",
+//      "product-images#lp",
+//      "vtex.product-highlights@2.x:product-highlights"
+//    ]
+//    },
+//    "product-images#lp": {
+//      "props": {
+//        "showNaveigationArrows": "true",
+//        "showPaginationDots": "true"
+//      }
+//    },
+////    "vtex.product-highlights@2.x:product-highlights": {
+//  "vtex.product-highlights@2.x:product-highlights": {
+//      "children": ["product-highlights-text"]
+//  },
+//  "product-highlights-text": {
+//    "props": {
+//      "message": "me salva"
+//}
+//  }
+}

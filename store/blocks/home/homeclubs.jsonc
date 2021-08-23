@@ -1,0 +1,90 @@
+{
+//    "slider-layout#home-clubs": {
+      "slider-layout#homeclubs": {
+//        "props": {
+//          "itemsPerPage": {"desktop": 9, "tablet": 7, "phone": 1},
+//          "infinite": true
+//          },
+//      },
+      "children": [
+        "image#brand1",
+        "image#brand2",
+        "image#brand3",
+        "image#brand4",
+        "image#brand5",
+        "image#brand6",
+        "image#brand7",
+        "image#brand8",
+        "image#brand9",
+        "image#brand10"
+      ],
+      "props": {
+        "itemsPerPage": {"desktop": 8, "tablet": 6, "phone": 2},
+        "autoplay": {
+          "timeout": 8000,
+          "stopOnHover": true
+        }
+      }
+    },
+    "image#brand1": {
+      "props": {
+        "maxHeight": 50,
+        "src": "assets/escudo/Corinthians.png"
+      }
+    },
+    "image#brand2": {
+      "props": {
+        "maxHeight": 50,
+        "src": "assets/escudo/Santos.png"
+      }
+    },
+    "image#brand3": {
+      "props": {
+        "maxHeight": 50,
+        "src": "assets/escudo/Palmeiras.png"
+      }
+    },
+    "image#brand4": {
+      "props": {
+        "maxHeight": 50,
+        "src": "assets/escudo/Flamengo.png"
+      }
+    },
+    "image#brand5": {
+      "props": {
+        "maxHeight": 50,
+        "src": "assets/escudo/Fluminense.png"
+      }
+    },
+    "image#brand6": {
+      "props": {
+        "maxHeight": 50,
+        "src": "assets/escudo/Cruzeiro.png"
+      }
+    },
+    "image#brand7": {
+      "props": {
+        "maxHeight": 50,
+        "src": "assets/escudo/CAM.png"
+      }
+    },
+    "image#brand8": {
+      "props": {
+        "maxHeight": 50,
+        "src": "assets/escudo/Inter.png"
+      }
+    },
+    "image#brand9": {
+      "props": {
+        "maxHeight": 50,
+        "src": "assets/escudo/Gremio.png"
+      }
+    },
+    "image#brand10": {
+      "props": {
+        "maxHeight": 50,
+        "src": "assets/escudo/Yoda.png"
+      }
+    }
+ }
+

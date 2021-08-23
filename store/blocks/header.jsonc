@@ -33,23 +33,25 @@
       "minicart.v2"
     ]
   },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
+ 
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo"]
+    "children": ["logo#header"]
   },
-  "logo": {
+  "logo#header": {
     "props": {
-      "title": "Logo",
+      "title": "Logo", 
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "https://www.fitforcommerce.com/wp-content/uploads/2016/05/vtex-logo-300x212.png",
+      "width": "120"
+
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
     }
   },
   "header-layout.mobile": {
@@ -73,7 +75,7 @@
       "fullWidth": true
     }
   },
-  "drawer": {
+"drawer": {
     "children": []
   }
 }
